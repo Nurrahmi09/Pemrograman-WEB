@@ -7,7 +7,7 @@ class Lingkaran(object):
     return self.angka * self.phi * self.jari2
    
  def main():
-  lingkaran1 = lingkaran(9, 3.14, 4)
+  lingkaran1 = Lingkaran(9, 3.14, 4)
   
   print('objek lingkaran1')
   print('angka\t: ',lingkaran1.angka)
@@ -15,7 +15,7 @@ class Lingkaran(object):
   print('jari-jari\t: ',lingkaran1.jari2)
   print('Keliling Lingkaran\t= ',lingkaran1.KelilingLingkaran())
   
-  lingkaran2 = lingkaran(7, 3.14, 8)
+  lingkaran2 = Lingkaran(7, 3.14, 8)
   
   print('objek lingkaran2')
   print('angka\t: ',lingkaran2.angka)
